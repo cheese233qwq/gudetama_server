@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>发生系统错误</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+
+<style>
+	.notice {
+		color: #cc0000;
+	}
+	span {
+		background: none;
+	}
+</style>
+
+<script>
+	var conFlag = 0;
+
+	function conerr(){
+		conFlag = 1;
+		document.getElementById("maintenance_text_output").innerHTML = "<span class='notice'>无法取得系统维护之相关资讯。<br>请再次确认您的网路环境以及装置之连线设定。</span>";
+	}
+	function consuc(){
+		conFlag = 1;
+		location.href = "https://gudetama.cyberstep.com/info_list?lang=zh-cn&mode=sp";
+	}
+	setTimeout(function(){
+		if(conFlag == 0){
+			conerr();
+		}
+	}, 5000);
+</script>
+
+<!-- このファイルが読み込めるかでエラー判定 -->
+<img src="https://gudetama.cyberstep.com/server/dummy.png" width="0" height="0" onerror="conerr()" onload="consuc()">
+
+<!-- header -->
+<header id="header">
+	<h1>发生系统错误</h1>
+</header>
+
+<!-- main -->
+<section>
+	<div id="main">
+		<div class="container c_top">
+			<p class="c_top_text">发生系统错误</p>
+		</div>
+		<div class="container maintenance_text">
+			<p id="maintenance_text_output">无法取得系统维护之相关资讯。<br>请再次确认您的网路环境以及装置之连线设定。</p>
+			<img src="maintenance_img.png" width="344" height="266" style="background: rgba(54, 54, 56, 0);" >
+		</div>
+		<div class="container c_bottom">
+		</div>
+	</div>
+</section>
+
+<!-- footer -->
+<section>
+	<footer id="footer">
+		<div class="container inner">
+			<ul>
+				<li class="logo"><img src="logo_cs.png" width="194" height="25" alt="CyberStep"></li>
+				<li class="copyright"><small>(C) CyberStep, Inc.</small></li>
+			</ul>
+		</div>
+	</footer>
+</section>
+
+</body>
+</html>

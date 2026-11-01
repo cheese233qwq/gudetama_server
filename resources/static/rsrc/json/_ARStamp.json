@@ -1,0 +1,32 @@
+{
+  "layout":{
+    "children":[
+      {
+        "cls":"starling.display.Image",
+        "constructorParams":[
+          {
+            "cls":"starling.textures.Texture",
+            "textureName":"assets-empty"
+          }
+        ],
+        "customParams":{},
+        "params":{
+          "name":"stamp"
+        }
+      }
+    ],
+    "cls":"starling.display.Sprite",
+    "customParams":{},
+    "params":{
+      "name":"_"
+    }
+  },
+  "setting":{
+    "canvasColor":5658198,
+    "canvasSize":{
+      "x":640,
+      "y":960
+    }
+  },
+  "version":"2.0"
+}

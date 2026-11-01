@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="cup0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="cup0@balloon"	x="436"	y="133"	width="167"	height="90"/>
+	<SubTexture name="cup0@btn_egg"	x="0"	y="133"	width="217"	height="101"/>
+	<SubTexture name="cup0@btn_green"	x="947"	y="0"	width="76"	height="57"/>
+	<SubTexture name="cup0@btn_orange"	x="850"	y="0"	width="96"	height="73"/>
+	<SubTexture name="cup0@btn_orange_l"	x="545"	y="0"	width="153"	height="113"/>
+	<SubTexture name="cup0@btn_video"	x="218"	y="133"	width="217"	height="101"/>
+	<SubTexture name="cup0@choose"	x="738"	y="152"	width="133"	height="71"/>
+	<SubTexture name="cup0@cooking"	x="604"	y="152"	width="133"	height="70"/>
+	<SubTexture name="cup0@frame"	x="872"	y="74"	width="89"	height="83"/>
+	<SubTexture name="cup0@frametop"	x="872"	y="158"	width="85"	height="49"/>
+	<SubTexture name="cup0@gizagiza"	x="0"	y="85"	width="533"	height="47"/>
+	<SubTexture name="cup0@icon"	x="699"	y="0"	width="150"	height="151"/>
+	<SubTexture name="cup0@mat_comptime"	x="604"	y="114"	width="53"	height="36"/>
+	<SubTexture name="cup0@mat_cupname"	x="872"	y="208"	width="66"	height="43"/>
+	<SubTexture name="cup0@mat_time"	x="604"	y="223"	width="50"	height="32"/>
+	<SubTexture name="cup0@star"	x="436"	y="224"	width="27"	height="26"/>
+	<SubTexture name="cup0@title"	x="0"	y="0"	width="544"	height="84"/>
+</TextureAtlas>

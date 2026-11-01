@@ -1,0 +1,13 @@
+{
+  "microwave_level": 40,
+  "drop_percent": 25,
+  "hidden_cooldown_seconds": 600,
+  "hidden_gp_per_level": 500,
+  "gift_friendship": 3,
+  "friend_touch_friendship": 1,
+  "pity_draws": 10,
+  "pity_minimum_egg": 1,
+  "duplicate_unique_gp": 1000,
+  "video_minimum_seconds": 5,
+  "video_cooldown_seconds": 60
+}

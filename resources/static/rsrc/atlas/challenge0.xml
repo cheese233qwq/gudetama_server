@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="challenge0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="challenge0@bg01"	x="501"	y="243"	width="68"	height="68"/>
+	<SubTexture name="challenge0@bg02"	x="471"	y="404"	width="68"	height="68"/>
+	<SubTexture name="challenge0@btn01"	x="425"	y="243"	width="75"	height="88"/>
+	<SubTexture name="challenge0@btn02"	x="395"	y="421"	width="75"	height="88"/>
+	<SubTexture name="challenge0@btn03"	x="319"	y="365"	width="75"	height="88"/>
+	<SubTexture name="challenge0@btn04"	x="349"	y="243"	width="75"	height="88"/>
+	<SubTexture name="challenge0@btn05"	x="395"	y="332"	width="75"	height="88"/>
+	<SubTexture name="challenge0@btn_green"	x="0"	y="455"	width="134"	height="54"/>
+	<SubTexture name="challenge0@btn_off"	x="0"	y="265"	width="235"	height="77"/>
+	<SubTexture name="challenge0@btn_on"	x="0"	y="343"	width="235"	height="77"/>
+	<SubTexture name="challenge0@compbar1"	x="174"	y="455"	width="15"	height="20"/>
+	<SubTexture name="challenge0@compbar2"	x="0"	y="243"	width="260"	height="21"/>
+	<SubTexture name="challenge0@complete"	x="193"	y="421"	width="125"	height="57"/>
+	<SubTexture name="challenge0@frame"	x="236"	y="265"	width="112"	height="51"/>
+	<SubTexture name="challenge0@mat01"	x="319"	y="454"	width="68"	height="46"/>
+	<SubTexture name="challenge0@mat02"	x="236"	y="365"	width="69"	height="46"/>
+	<SubTexture name="challenge0@mat03_1"	x="597"	y="0"	width="22"	height="37"/>
+	<SubTexture name="challenge0@mat03_2"	x="591"	y="75"	width="22"	height="37"/>
+	<SubTexture name="challenge0@mat03_3"	x="515"	y="473"	width="22"	height="37"/>
+	<SubTexture name="challenge0@mat03_4"	x="591"	y="113"	width="22"	height="37"/>
+	<SubTexture name="challenge0@mat03_5"	x="591"	y="151"	width="22"	height="37"/>
+	<SubTexture name="challenge0@mat04_1"	x="471"	y="473"	width="43"	height="38"/>
+	<SubTexture name="challenge0@mat04_2"	x="570"	y="264"	width="43"	height="38"/>
+	<SubTexture name="challenge0@mat04_3"	x="587"	y="360"	width="43"	height="38"/>
+	<SubTexture name="challenge0@mat04_4"	x="543"	y="360"	width="43"	height="38"/>
+	<SubTexture name="challenge0@mat04_5"	x="591"	y="303"	width="43"	height="38"/>
+	<SubTexture name="challenge0@mat_comp"	x="541"	y="0"	width="55"	height="74"/>
+	<SubTexture name="challenge0@mat_compnum"	x="236"	y="317"	width="109"	height="47"/>
+	<SubTexture name="challenge0@mat_noncomp"	x="540"	y="404"	width="56"	height="76"/>
+	<SubTexture name="challenge0@mat_number"	x="135"	y="479"	width="83"	height="22"/>
+	<SubTexture name="challenge0@mat_star"	x="471"	y="332"	width="71"	height="71"/>
+	<SubTexture name="challenge0@mat_time"	x="135"	y="455"	width="38"	height="21"/>
+	<SubTexture name="challenge0@rogo_compnum"	x="0"	y="421"	width="192"	height="33"/>
+	<SubTexture name="challenge0@star01"	x="541"	y="122"	width="49"	height="46"/>
+	<SubTexture name="challenge0@star01_p"	x="541"	y="75"	width="49"	height="46"/>
+	<SubTexture name="challenge0@star02"	x="541"	y="169"	width="49"	height="46"/>
+	<SubTexture name="challenge0@star03"	x="570"	y="216"	width="47"	height="47"/>
+	<SubTexture name="challenge0@star03_p"	x="543"	y="312"	width="47"	height="47"/>
+	<SubTexture name="challenge0@title_daily"	x="0"	y="81"	width="540"	height="80"/>
+	<SubTexture name="challenge0@title_event"	x="0"	y="0"	width="540"	height="80"/>
+	<SubTexture name="challenge0@title_normal"	x="0"	y="162"	width="540"	height="80"/>
+</TextureAtlas>

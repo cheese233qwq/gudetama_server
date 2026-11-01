@@ -1,0 +1,3 @@
+# libgude is imported directly from its read-only archive.
+# HTTP routing uses Python's standard-library WSGI server (local testing only).
+cryptography>=42

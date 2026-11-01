@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="ar0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="ar0@ar_help"	x="97"	y="817"	width="95"	height="51"/>
+	<SubTexture name="ar0@bar_light01"	x="0"	y="234"	width="119"	height="11"/>
+	<SubTexture name="ar0@bar_light02"	x="0"	y="0"	width="427"	height="11"/>
+	<SubTexture name="ar0@btn_blue"	x="209"	y="372"	width="79"	height="61"/>
+	<SubTexture name="ar0@btn_camera"	x="0"	y="470"	width="117"	height="117"/>
+	<SubTexture name="ar0@btn_close"	x="285"	y="572"	width="58"	height="57"/>
+	<SubTexture name="ar0@btn_fb"	x="193"	y="880"	width="89"	height="90"/>
+	<SubTexture name="ar0@btn_gudetama"	x="0"	y="817"	width="96"	height="96"/>
+	<SubTexture name="ar0@btn_help"	x="283"	y="920"	width="65"	height="65"/>
+	<SubTexture name="ar0@btn_incamera"	x="209"	y="307"	width="80"	height="64"/>
+	<SubTexture name="ar0@btn_instagram"	x="101"	y="716"	width="91"	height="93"/>
+	<SubTexture name="ar0@btn_kakao"	x="118"	y="428"	width="90"	height="90"/>
+	<SubTexture name="ar0@btn_light"	x="219"	y="160"	width="67"	height="66"/>
+	<SubTexture name="ar0@btn_line"	x="193"	y="788"	width="89"	height="91"/>
+	<SubTexture name="ar0@btn_off"	x="0"	y="12"	width="132"	height="42"/>
+	<SubTexture name="ar0@btn_on"	x="0"	y="55"	width="132"	height="42"/>
+	<SubTexture name="ar0@btn_plurk"	x="118"	y="337"	width="90"	height="90"/>
+	<SubTexture name="ar0@btn_red"	x="0"	y="171"	width="125"	height="62"/>
+	<SubTexture name="ar0@btn_reset01"	x="133"	y="12"	width="86"	height="54"/>
+	<SubTexture name="ar0@btn_reset02"	x="118"	y="519"	width="90"	height="61"/>
+	<SubTexture name="ar0@btn_reset03"	x="126"	y="189"	width="86"	height="54"/>
+	<SubTexture name="ar0@btn_twitter"	x="193"	y="696"	width="90"	height="91"/>
+	<SubTexture name="ar0@btn_video01"	x="0"	y="914"	width="96"	height="96"/>
+	<SubTexture name="ar0@btn_video02"	x="0"	y="352"	width="117"	height="117"/>
+	<SubTexture name="ar0@btn_video03"	x="209"	y="434"	width="75"	height="88"/>
+	<SubTexture name="ar0@btn_video04"	x="285"	y="500"	width="61"	height="71"/>
+	<SubTexture name="ar0@btn_wechat"	x="128"	y="98"	width="90"	height="90"/>
+	<SubTexture name="ar0@btn_weibo"	x="118"	y="246"	width="90"	height="90"/>
+	<SubTexture name="ar0@camera_help"	x="284"	y="673"	width="64"	height="64"/>
+	<SubTexture name="ar0@edit"	x="0"	y="246"	width="117"	height="105"/>
+	<SubTexture name="ar0@gold"	x="0"	y="588"	width="106"	height="127"/>
+	<SubTexture name="ar0@gold_s"	x="289"	y="372"	width="46"	height="56"/>
+	<SubTexture name="ar0@gp"	x="287"	y="160"	width="46"	height="54"/>
+	<SubTexture name="ar0@gudetama"	x="209"	y="523"	width="73"	height="49"/>
+	<SubTexture name="ar0@gudetama_help"	x="283"	y="788"	width="66"	height="65"/>
+	<SubTexture name="ar0@home"	x="97"	y="869"	width="95"	height="96"/>
+	<SubTexture name="ar0@incamera_help"	x="220"	y="12"	width="66"	height="53"/>
+	<SubTexture name="ar0@light"	x="284"	y="738"	width="46"	height="46"/>
+	<SubTexture name="ar0@light_help"	x="283"	y="854"	width="66"	height="65"/>
+	<SubTexture name="ar0@line_dot"	x="0"	y="1011"	width="33"	height="8"/>
+	<SubTexture name="ar0@mat01"	x="347"	y="222"	width="12"	height="209"/>
+	<SubTexture name="ar0@mat02"	x="334"	y="65"	width="12"	height="209"/>
+	<SubTexture name="ar0@mat03"	x="347"	y="12"	width="12"	height="209"/>
+	<SubTexture name="ar0@mat_ar"	x="199"	y="581"	width="85"	height="91"/>
+	<SubTexture name="ar0@mat_guide"	x="219"	y="67"	width="71"	height="92"/>
+	<SubTexture name="ar0@mat_help"	x="290"	y="307"	width="44"	height="43"/>
+	<SubTexture name="ar0@mat_time"	x="0"	y="98"	width="127"	height="72"/>
+	<SubTexture name="ar0@mat_white1"	x="189"	y="971"	width="81"	height="47"/>
+	<SubTexture name="ar0@mat_white2"	x="209"	y="244"	width="82"	height="62"/>
+	<SubTexture name="ar0@stamp"	x="287"	y="12"	width="50"	height="52"/>
+	<SubTexture name="ar0@tab01"	x="107"	y="642"	width="91"	height="53"/>
+	<SubTexture name="ar0@tab02"	x="107"	y="588"	width="91"	height="53"/>
+	<SubTexture name="ar0@tab03"	x="97"	y="966"	width="91"	height="53"/>
+	<SubTexture name="ar0@target"	x="0"	y="716"	width="100"	height="100"/>
+	<SubTexture name="ar0@video_help"	x="285"	y="434"	width="64"	height="65"/>
+</TextureAtlas>

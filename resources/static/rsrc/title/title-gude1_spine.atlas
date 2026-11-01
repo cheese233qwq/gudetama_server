@@ -1,0 +1,20 @@
+
+title-gude1_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/tameiki
+  rotate: false
+  xy: 2, 2
+  size: 111, 87
+  orig: 111, 87
+  offset: 0, 0
+  index: -1
+png/title0@gudetama2
+  rotate: false
+  xy: 2, 91
+  size: 977, 724
+  orig: 977, 724
+  offset: 0, 0
+  index: -1

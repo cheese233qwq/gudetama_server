@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="title1.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="title1@btn_orange"	x="1282"	y="52"	width="77"	height="62"/>
+	<SubTexture name="title1@mat_id"	x="1106"	y="52"	width="88"	height="59"/>
+	<SubTexture name="title1@mat_password"	x="1195"	y="52"	width="86"	height="73"/>
+	<SubTexture name="title1@mat_white"	x="1360"	y="52"	width="76"	height="48"/>
+	<SubTexture name="title1@text_cn"	x="0"	y="52"	width="552"	height="51"/>
+	<SubTexture name="title1@text_en"	x="553"	y="52"	width="552"	height="51"/>
+	<SubTexture name="title1@text_ja"	x="0"	y="0"	width="552"	height="51"/>
+	<SubTexture name="title1@text_ko"	x="1106"	y="0"	width="552"	height="51"/>
+	<SubTexture name="title1@text_tw"	x="553"	y="0"	width="552"	height="51"/>
+</TextureAtlas>

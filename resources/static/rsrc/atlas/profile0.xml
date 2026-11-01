@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="profile0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="profile0@balloon"	x="404"	y="446"	width="72"	height="61"/>
+	<SubTexture name="profile0@bg01"	x="281"	y="279"	width="166"	height="166"/>
+	<SubTexture name="profile0@btn_edit"	x="669"	y="173"	width="39"	height="39"/>
+	<SubTexture name="profile0@btn_frame"	x="0"	y="145"	width="432"	height="133"/>
+	<SubTexture name="profile0@btn_gpbuy"	x="0"	y="279"	width="280"	height="89"/>
+	<SubTexture name="profile0@btn_green_s"	x="618"	y="462"	width="56"	height="37"/>
+	<SubTexture name="profile0@btn_off"	x="448"	y="223"	width="145"	height="77"/>
+	<SubTexture name="profile0@btn_on"	x="433"	y="145"	width="145"	height="77"/>
+	<SubTexture name="profile0@btn_plus"	x="675"	y="49"	width="33"	height="33"/>
+	<SubTexture name="profile0@btn_property"	x="236"	y="446"	width="85"	height="55"/>
+	<SubTexture name="profile0@cancel"	x="541"	y="0"	width="133"	height="133"/>
+	<SubTexture name="profile0@frame2"	x="579"	y="134"	width="89"	height="83"/>
+	<SubTexture name="profile0@gizagiza"	x="0"	y="81"	width="534"	height="63"/>
+	<SubTexture name="profile0@line_dot"	x="121"	y="502"	width="33"	height="8"/>
+	<SubTexture name="profile0@mat01"	x="0"	y="446"	width="120"	height="57"/>
+	<SubTexture name="profile0@mat02"	x="160"	y="369"	width="113"	height="52"/>
+	<SubTexture name="profile0@mat03"	x="121"	y="446"	width="114"	height="34"/>
+	<SubTexture name="profile0@mat_cover"	x="477"	y="446"	width="72"	height="47"/>
+	<SubTexture name="profile0@mat_cover_gudetama"	x="448"	y="301"	width="144"	height="144"/>
+	<SubTexture name="profile0@mat_cover_icon"	x="593"	y="301"	width="110"	height="110"/>
+	<SubTexture name="profile0@mat_gold"	x="618"	y="412"	width="67"	height="49"/>
+	<SubTexture name="profile0@mat_gp"	x="550"	y="446"	width="67"	height="49"/>
+	<SubTexture name="profile0@mat_history"	x="675"	y="0"	width="40"	height="48"/>
+	<SubTexture name="profile0@mat_level"	x="594"	y="268"	width="49"	height="31"/>
+	<SubTexture name="profile0@mat_name"	x="322"	y="446"	width="81"	height="52"/>
+	<SubTexture name="profile0@mat_number"	x="662"	y="252"	width="49"	height="37"/>
+	<SubTexture name="profile0@mat_silver"	x="594"	y="218"	width="67"	height="49"/>
+	<SubTexture name="profile0@mat_white"	x="669"	y="134"	width="49"	height="38"/>
+	<SubTexture name="profile0@mat_yellow"	x="155"	y="481"	width="23"	height="23"/>
+	<SubTexture name="profile0@name2"	x="662"	y="218"	width="55"	height="33"/>
+	<SubTexture name="profile0@rogo_property"	x="0"	y="369"	width="159"	height="73"/>
+	<SubTexture name="profile0@title"	x="0"	y="0"	width="540"	height="80"/>
+</TextureAtlas>

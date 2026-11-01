@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="friendroom0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="friendroom0@back"	x="0"	y="837"	width="94"	height="94"/>
+	<SubTexture name="friendroom0@balloon"	x="0"	y="476"	width="172"	height="120"/>
+	<SubTexture name="friendroom0@balloon2"	x="0"	y="932"	width="82"	height="68"/>
+	<SubTexture name="friendroom0@balloon_heart"	x="132"	y="597"	width="70"	height="59"/>
+	<SubTexture name="friendroom0@balloon_under"	x="132"	y="657"	width="67"	height="59"/>
+	<SubTexture name="friendroom0@banner_help01"	x="0"	y="113"	width="474"	height="112"/>
+	<SubTexture name="friendroom0@banner_help02"	x="0"	y="0"	width="474"	height="112"/>
+	<SubTexture name="friendroom0@banner_tap01"	x="0"	y="226"	width="444"	height="124"/>
+	<SubTexture name="friendroom0@banner_tap02"	x="0"	y="351"	width="444"	height="124"/>
+	<SubTexture name="friendroom0@benri"	x="0"	y="769"	width="110"	height="67"/>
+	<SubTexture name="friendroom0@benri2"	x="171"	y="825"	width="59"	height="54"/>
+	<SubTexture name="friendroom0@btn_green"	x="111"	y="769"	width="74"	height="55"/>
+	<SubTexture name="friendroom0@btn_next"	x="0"	y="683"	width="131"	height="85"/>
+	<SubTexture name="friendroom0@btn_prev"	x="0"	y="597"	width="131"	height="85"/>
+	<SubTexture name="friendroom0@line_dot"	x="22"	y="1001"	width="21"	height="4"/>
+	<SubTexture name="friendroom0@mat_circle_s"	x="0"	y="1001"	width="21"	height="21"/>
+	<SubTexture name="friendroom0@mat_level"	x="132"	y="717"	width="52"	height="35"/>
+	<SubTexture name="friendroom0@mat_name"	x="83"	y="978"	width="66"	height="44"/>
+	<SubTexture name="friendroom0@mat_profile"	x="95"	y="837"	width="75"	height="140"/>
+</TextureAtlas>

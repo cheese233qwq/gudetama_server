@@ -1,0 +1,27 @@
+
+title-title_spine_pt.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tamagoL
+  rotate: false
+  xy: 2, 2
+  size: 91, 93
+  orig: 99, 93
+  offset: 1, 0
+  index: -1
+tamagoR
+  rotate: false
+  xy: 513, 301
+  size: 81, 87
+  orig: 84, 93
+  offset: 3, 1
+  index: -1
+title
+  rotate: false
+  xy: 2, 97
+  size: 509, 291
+  orig: 541, 314
+  offset: 21, 20
+  index: -1

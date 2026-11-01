@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gudetama Admin</title>
+<link rel="icon" href="data:,">
+<style>
+:root{
+  --pan:#2d2a27;
+  --pan-2:#3b3733;
+  --pan-text:#f3ece0;
+  --pan-muted:#a89f92;
+  --butter:#fbf1cf;
+  --white:#fffefa;
+  --yolk:#f2b01e;
+  --yolk-deep:#d99a0b;
+  --bacon:#c4504a;
+  --ink:#3a2c1c;
+  --muted:#7b6b56;
+  --line:#eadcb4;
+  --focus:#2f77a8;
+  --ok:#2f7d4f;
+  --font:"Hiragino Maru Gothic ProN","Yuanti SC","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Noto Sans Mono CJK SC",monospace;
+}
+*{box-sizing:border-box}
+html{background:var(--butter)}
+body{margin:0;font:15px/1.6 var(--font);color:var(--ink);background:var(--butter);min-height:100vh}
+
+.app{display:grid;grid-template-columns:320px minmax(0,1fr);min-height:100vh}
+
+/* ---------- Sidebar ---------- */
+.rail{background:var(--pan);color:var(--pan-text);padding:28px 24px;position:sticky;top:0;align-self:start;height:100vh;overflow:auto}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.brand h1{font-size:21px;line-height:1.25;margin:0;font-weight:700}
+.rail .sub{color:var(--pan-muted);font-size:13px;margin:10px 0 26px}
+.rail h2{font-size:14px;font-weight:700;margin:26px 0 10px;color:var(--pan-text)}
+.rail label{display:block;font-size:13px;color:var(--pan-muted);margin-bottom:6px}
+.rail input,.rail select{background:var(--pan-2);color:var(--pan-text);border-color:#524d47}
+.rail input:focus-visible,.rail select:focus-visible{outline-color:var(--yolk)}
+.rail .btn-row{margin-top:10px}
+
+/* ---------- Form controls ---------- */
+input,select,button{font:inherit;color:inherit}
+input,select{width:100%;padding:9px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--white);min-height:42px}
+input[type=number]{font-variant-numeric:tabular-nums}
+select:disabled,input:disabled{opacity:.5;cursor:not-allowed}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+
+button{cursor:pointer;border:0;border-radius:999px;padding:9px 20px;min-height:42px;font-weight:700;background:var(--yolk);color:var(--ink);transition:background .15s,transform .1s}
+button:hover:not(:disabled){background:var(--yolk-deep)}
+button:active:not(:disabled){transform:translateY(1px)}
+button:disabled{opacity:.45;cursor:not-allowed}
+button.quiet{background:transparent;color:inherit;box-shadow:inset 0 0 0 1.5px currentColor}
+button.quiet:hover:not(:disabled){background:rgba(127,127,127,.15)}
+button.danger{background:var(--bacon);color:#fff}
+button.danger:hover:not(:disabled){background:#a93f3a}
+.rail button{width:100%}
+.rail button.quiet{color:var(--pan-text)}
+
+/* ---------- Main content ---------- */
+main{padding:32px clamp(18px,4vw,48px) 64px;max-width:980px;width:100%}
+.notice{display:flex;gap:12px;align-items:flex-start;background:var(--white);border-left:6px solid var(--yolk);border-radius:6px 14px 14px 6px;padding:14px 18px;margin:0 0 20px;color:var(--muted);font-size:14px}
+.notice b{color:var(--ink)}
+
+#message{white-space:pre-wrap;overflow-wrap:anywhere;border-radius:12px;padding:0 16px;margin:0 0 20px;max-height:0;overflow:hidden;transition:max-height .25s,padding .25s}
+#message.show{padding:12px 16px;max-height:300px;background:var(--white);border:1.5px solid var(--line)}
+#message.ok{border-color:var(--ok);color:var(--ok)}
+#message.err{border-color:var(--bacon);color:var(--bacon);background:#fff4f2}
+
+.sheet{background:var(--white);border-radius:22px;padding:6px 30px;box-shadow:0 1px 0 var(--line)}
+.block{padding:26px 0;border-bottom:1.5px dashed var(--line)}
+.block:last-child{border-bottom:0}
+.block h2{display:flex;align-items:center;gap:10px;font-size:18px;margin:0 0 6px}
+.block h2::before{content:"";width:14px;height:14px;border-radius:50%;background:var(--yolk);box-shadow:0 0 0 4px #fbe6a6;flex:none}
+.block p.hint{margin:0 0 16px;color:var(--muted);font-size:14px;max-width:70ch}
+
+pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;max-height:420px;overflow:auto;background:var(--pan);color:var(--pan-text);border-radius:14px;padding:16px 18px;font:13px/1.65 var(--mono)}
+#activeEvents{margin-top:16px;max-height:200px}
+
+/* Gacha pools */
+#pools{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-bottom:16px}
+.chip{display:flex;align-items:center;gap:10px;padding:10px 14px;border:1.5px solid var(--line);border-radius:12px;cursor:pointer;background:var(--white);line-height:1.35;transition:background .15s,border-color .15s}
+.chip:hover{border-color:var(--yolk)}
+.chip:has(input:checked){background:#fff3cc;border-color:var(--yolk)}
+.chip input{width:18px;height:18px;min-height:0;accent-color:var(--yolk-deep);flex:none;margin:0;padding:0}
+.chip small{display:block;color:var(--muted)}
+
+/* Form grid */
+.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:16px}
+.field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px}
+.field.wide{grid-column:1/-1}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.event-row{display:grid;grid-template-columns:minmax(0,1fr) 140px;gap:16px;margin-bottom:16px}
+
+@media(max-width:820px){
+  .app{grid-template-columns:1fr}
+  .rail{position:static;height:auto}
+  .sheet{padding:2px 18px}
+  .event-row{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <aside class="rail">
+    <div class="brand">
+      <h1>Gudetama<br>Server Admin</h1>
+    </div>
+    <p class="sub">Manage saved accounts.</p>
+
+    <h2>Connection</h2>
+    <label for="token">Admin token from the terminal</label>
+    <input id="token" type="password" autocomplete="off" placeholder="Paste token">
+    <div class="btn-row"><button id="connect">Connect / Refresh accounts</button></div>
+
+    <h2>Accounts</h2>
+    <label for="account">Select an account</label>
+    <select id="account"></select>
+    <div class="btn-row"><button id="view" class="quiet">View full data</button></div>
+  </aside>
+
+  <main>
+    <div class="notice"><span>Rewards are sent to the in-game <b>BOX</b> and credited when claimed.</span></div>
+    <p id="message" role="status"></p>
+
+    <div class="sheet">
+      <section class="block">
+        <h2>Account data</h2>
+        <p class="hint">Full saved data for the selected account.</p>
+        <pre id="data">Connect, then select an account.</pre>
+      </section>
+
+      <section class="block">
+        <h2>Active Gacha</h2>
+        <p class="hint">Applies to all accounts. Archived prizes and weights are preserved. Reopen the gacha screen after saving. Free draws are not reset.</p>
+        <div id="pools"></div>
+        <button id="savePools">Save active pools</button>
+      </section>
+
+      <section class="block">
+        <h2>Event schedule</h2>
+        <p class="hint">Only one event can be open at a time. Close the current event before opening another; extending the current event is allowed. Playable events support hotplate cooking, deliveries, rankings and BOX rewards. Other entries only appear on the calendar. Opening an event grants no items or currency. Closing settles ranking rewards; reopening creates a new cycle. Old scores are retained. Log in again after changes.</p>
+        <div class="event-row">
+          <div class="field"><label for="event">Event</label><select id="event"></select></div>
+          <div class="field"><label for="eventDays">Days</label><input id="eventDays" type="number" min="1" max="365" value="7"></div>
+        </div>
+        <div class="actions">
+          <button id="openEvent">Open / Extend</button>
+          <button id="closeEvent" class="danger">Close and settle</button>
+        </div>
+        <pre id="activeEvents"></pre>
+      </section>
+
+      <section class="block">
+        <h2>Grant rewards</h2>
+        <p class="hint">Each grant has a unique ID. If the result is uncertain, retry the same grant to avoid duplicates.</p>
+        <div class="fields">
+          <div class="field"><label for="kind">Reward type</label>
+            <select id="kind"><option value="gold">Free golden eggs</option><option value="gp">GP</option><option value="useful">Items / Gacha tickets</option></select></div>
+          <div class="field"><label for="item">Item</label><select id="item" disabled></select></div>
+          <div class="field"><label for="amount">Amount</label><input id="amount" type="number" min="1" value="1000"></div>
+          <div class="field wide"><label for="note">Audit reason</label><input id="note" value="Manual gameplay test"></div>
+        </div>
+        <div class="actions">
+          <button id="grant">Send reward</button>
+          <button id="retry" class="quiet" disabled>Retry last grant</button>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<script>
+const el=id=>document.getElementById(id);let pending=null,activeEventIds=[];
+function say(text,kind){const m=el('message');m.textContent=text;m.className='show '+(kind||'ok');}
+async function api(path,body){const r=await fetch(path,{method:body?'POST':'GET',headers:{Authorization:'Bearer '+el('token').value,...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})});const x=await r.json();if(!r.ok){const e=Error(x.error||r.status);e.status=r.status;throw e;}return x;}
+function option(select,value,text){const o=document.createElement('option');o.value=value;o.textContent=text;select.append(o);}
+async function accounts(){const uid=el('account').value,rows=await api('/api/accounts');el('account').replaceChildren();for(const r of rows)option(el('account'),r.uid,`${r.uid} · ${r.name} · Lv.${r.rank} · GP ${r.gp} · Gold ${r.gold}`);if(rows.some(r=>String(r.uid)===uid))el('account').value=uid;}
+async function detail(){el('data').textContent=JSON.stringify(await api('/api/accounts/'+el('account').value),null,2);}
+async function action(fn){try{await fn();}catch(e){say(e.message,'err');}}
+async function send(body){el('grant').disabled=el('retry').disabled=true;try{const r=await api('/api/rewards',body);pending=null;say(`${r.replayed?'Already processed; no duplicate reward':'Sent'}：${r.delivery==='box'?'BOX mail '+r.mail_key:'Legacy direct-credit record'}\nGrant ID: ${r.grant_id}\nClaim the reward in the in-game BOX. Log in again if needed.`,'ok');await accounts();await detail();}catch(e){if(e.status>=400&&e.status<500)pending=null;throw e;}finally{el('grant').disabled=false;el('retry').disabled=!pending;}}
+async function pools(){const r=await api('/api/pools');el('pools').replaceChildren();for(const p of r.pools){const label=document.createElement('label'),input=document.createElement('input'),text=document.createElement('span');label.className='chip';input.type='checkbox';input.value=p.id;input.checked=r.active.includes(p.id);text.innerHTML='';text.append(document.createTextNode(`${p.id} · ${p.name}`));const small=document.createElement('small');small.textContent=`${p.items} prizes`;text.append(small);label.append(input,text);el('pools').append(label);}}
+el('savePools').onclick=()=>action(async()=>{await api('/api/pools',{active:[...el('pools').querySelectorAll('input:checked')].map(x=>Number(x.value))});await pools();say('Saved. Reopen the gacha screen.','ok');});
+function eventControls(){el('openEvent').disabled=activeEventIds.some(id=>id!==Number(el('event').value));}
+el('event').onchange=eventControls;
+async function events(){const r=await api('/api/events'),selected=el('event').value;activeEventIds=r.active.map(e=>e.id);el('event').replaceChildren();for(const e of r.events.sort((a,b)=>a.id-b.id))option(el('event'),e.id,`${e.id} · ${e.name} · ${e.playable?'Playable':'Calendar only'}`);if(r.events.some(e=>String(e.id)===selected))el('event').value=selected;else if(activeEventIds.length)el('event').value=activeEventIds[0];else if(r.events.some(e=>e.id===1066))el('event').value=1066;el('activeEvents').textContent=r.active.length?r.active.map(e=>`${e.id} · Ends ${new Date(e.deadline_unix*1000).toLocaleString()}`).join('\n'):'No active events';eventControls();}
+async function changeEvent(enabled){await api('/api/events',{id:Number(el('event').value),days:Number(el('eventDays').value),enabled});await events();say(enabled?'Event opened. Log in again.':'Event closed and settled. Claim rewards in the in-game BOX.','ok');}
+el('openEvent').onclick=()=>action(()=>changeEvent(true));el('closeEvent').onclick=()=>action(()=>changeEvent(false));
+el('connect').onclick=()=>action(async()=>{await accounts();await pools();await events();const items=await api('/api/items');el('item').replaceChildren();for(const i of items)option(el('item'),i.id,`${i.id} · ${i.name} (limit ${i.limit})`);if(el('account').value)await detail();say('Connected to the database.','ok');});
+el('view').onclick=()=>action(detail);el('account').onchange=()=>action(detail);
+el('kind').onchange=()=>{el('item').disabled=el('kind').value!=='useful';el('amount').value=el('kind').value==='useful'?1:1000;};
+el('grant').onclick=()=>action(async()=>{if(pending)throw Error('The previous grant is unresolved. Retry it using the same grant ID first.');pending={uid:Number(el('account').value),kind:el('kind').value,item_id:el('kind').value==='useful'?Number(el('item').value):0,amount:Number(el('amount').value),grant_id:crypto.randomUUID(),note:el('note').value};await send(pending);});
+el('retry').onclick=()=>action(async()=>{if(pending)await send(pending);});
+</script>
+</body>
+</html>

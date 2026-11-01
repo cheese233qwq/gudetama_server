@@ -1,0 +1,27 @@
+
+title-title_spine_ko.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tamagoL
+  rotate: false
+  xy: 2, 2
+  size: 105, 91
+  orig: 105, 91
+  offset: 0, 0
+  index: -1
+tamagoR
+  rotate: false
+  xy: 528, 282
+  size: 83, 98
+  orig: 83, 98
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 2, 95
+  size: 524, 285
+  orig: 541, 314
+  offset: 11, 23
+  index: -1

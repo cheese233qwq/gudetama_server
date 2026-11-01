@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="common1.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="common1@700_229"	x="0"	y="0"	width="700"	height="229"/>
+	<SubTexture name="common1@700_71"	x="701"	y="0"	width="700"	height="71"/>
+	<SubTexture name="common1@arrow"	x="1080"	y="388"	width="104"	height="102"/>
+	<SubTexture name="common1@btn_ad01"	x="701"	y="161"	width="374"	height="111"/>
+	<SubTexture name="common1@btn_ad02"	x="924"	y="273"	width="155"	height="155"/>
+	<SubTexture name="common1@btn_back"	x="701"	y="409"	width="141"	height="90"/>
+	<SubTexture name="common1@btn_blue"	x="1216"	y="161"	width="83"	height="67"/>
+	<SubTexture name="common1@btn_blue2"	x="1238"	y="72"	width="83"	height="67"/>
+	<SubTexture name="common1@btn_close"	x="1300"	y="289"	width="63"	height="62"/>
+	<SubTexture name="common1@btn_copy"	x="1185"	y="472"	width="32"	height="32"/>
+	<SubTexture name="common1@btn_gray"	x="941"	y="429"	width="94"	height="67"/>
+	<SubTexture name="common1@btn_green"	x="1275"	y="433"	width="83"	height="67"/>
+	<SubTexture name="common1@btn_green2"	x="1300"	y="140"	width="83"	height="67"/>
+	<SubTexture name="common1@btn_green3"	x="843"	y="429"	width="97"	height="67"/>
+	<SubTexture name="common1@btn_move"	x="1322"	y="72"	width="60"	height="66"/>
+	<SubTexture name="common1@btn_orange"	x="1211"	y="297"	width="88"	height="67"/>
+	<SubTexture name="common1@btn_red"	x="1275"	y="365"	width="83"	height="67"/>
+	<SubTexture name="common1@btn_room"	x="1080"	y="297"	width="130"	height="90"/>
+	<SubTexture name="common1@btn_triangle"	x="1036"	y="429"	width="39"	height="63"/>
+	<SubTexture name="common1@btn_yellow"	x="1216"	y="229"	width="83"	height="67"/>
+	<SubTexture name="common1@footer"	x="0"	y="230"	width="700"	height="135"/>
+	<SubTexture name="common1@frame01"	x="1185"	y="388"	width="89"	height="83"/>
+	<SubTexture name="common1@frame02"	x="1300"	y="208"	width="80"	height="80"/>
+	<SubTexture name="common1@frame03"	x="1080"	y="161"	width="135"	height="135"/>
+	<SubTexture name="common1@line_dot"	x="0"	y="502"	width="34"	height="8"/>
+	<SubTexture name="common1@mat01"	x="1866"	y="0"	width="77"	height="79"/>
+	<SubTexture name="common1@mat02"	x="1866"	y="167"	width="57"	height="62"/>
+	<SubTexture name="common1@mat_title"	x="701"	y="72"	width="536"	height="88"/>
+	<SubTexture name="common1@new"	x="701"	y="273"	width="222"	height="135"/>
+	<SubTexture name="common1@pr"	x="0"	y="366"	width="700"	height="135"/>
+	<SubTexture name="common1@time"	x="1866"	y="80"	width="69"	height="86"/>
+	<SubTexture name="common1@toge"	x="1402"	y="0"	width="463"	height="460"/>
+	<SubTexture name="common1@tri"	x="1218"	y="472"	width="32"	height="28"/>
+</TextureAtlas>

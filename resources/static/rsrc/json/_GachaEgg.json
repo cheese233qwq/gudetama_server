@@ -1,0 +1,36 @@
+{
+  "layout":{
+    "children":[
+      {
+        "cls":"starling.display.Image",
+        "constructorParams":[
+          {
+            "cls":"starling.textures.Texture",
+            "textureName":"gacha1@egg_0"
+          }
+        ],
+        "customParams":{},
+        "params":{
+          "name":"egg",
+          "pivotX":98.5,
+          "pivotY":120,
+          "scaleX":0.5,
+          "scaleY":0.5
+        }
+      }
+    ],
+    "cls":"starling.display.Sprite",
+    "customParams":{},
+    "params":{
+      "name":"root"
+    }
+  },
+  "setting":{
+    "canvasColor":11711154,
+    "canvasSize":{
+      "x":640,
+      "y":960
+    }
+  },
+  "version":"2.0"
+}

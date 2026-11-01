@@ -1,0 +1,7 @@
+{
+  "bind_host": "0.0.0.0",
+  "public_origin": "http://127.0.0.1:8080",
+  "state": "save/accounts.sqlite3",
+  "log": "log/server.log",
+  "startup_timeout_seconds": 60
+}

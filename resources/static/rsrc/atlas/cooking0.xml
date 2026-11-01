@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="cooking0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="cooking0@balloon"	x="0"	y="0"	width="220"	height="212"/>
+	<SubTexture name="cooking0@balloon_isogi"	x="218"	y="333"	width="70"	height="59"/>
+	<SubTexture name="cooking0@balloon_isogi_gold"	x="151"	y="771"	width="70"	height="59"/>
+	<SubTexture name="cooking0@balloon_isogi_red"	x="218"	y="273"	width="70"	height="59"/>
+	<SubTexture name="cooking0@balloon_isogi_silver"	x="218"	y="213"	width="70"	height="59"/>
+	<SubTexture name="cooking0@balloon_s"	x="0"	y="963"	width="126"	height="51"/>
+	<SubTexture name="cooking0@btn_egg"	x="151"	y="569"	width="103"	height="67"/>
+	<SubTexture name="cooking0@btn_egg_orange"	x="0"	y="315"	width="217"	height="101"/>
+	<SubTexture name="cooking0@btn_isogi"	x="0"	y="873"	width="135"	height="89"/>
+	<SubTexture name="cooking0@btn_isogi02"	x="151"	y="705"	width="97"	height="65"/>
+	<SubTexture name="cooking0@btn_isogi_gold"	x="136"	y="873"	width="104"	height="72"/>
+	<SubTexture name="cooking0@btn_isogi_red"	x="0"	y="213"	width="217"	height="101"/>
+	<SubTexture name="cooking0@btn_isogi_silver"	x="136"	y="946"	width="104"	height="72"/>
+	<SubTexture name="cooking0@btn_red"	x="151"	y="637"	width="98"	height="67"/>
+	<SubTexture name="cooking0@change"	x="221"	y="64"	width="50"	height="50"/>
+	<SubTexture name="cooking0@goldegg"	x="151"	y="831"	width="33"	height="40"/>
+	<SubTexture name="cooking0@icon"	x="0"	y="721"	width="150"	height="151"/>
+	<SubTexture name="cooking0@icon2"	x="0"	y="569"	width="150"	height="151"/>
+	<SubTexture name="cooking0@icon3"	x="0"	y="417"	width="150"	height="151"/>
+	<SubTexture name="cooking0@icon4"	x="151"	y="417"	width="150"	height="151"/>
+	<SubTexture name="cooking0@isogi4"	x="185"	y="831"	width="33"	height="40"/>
+	<SubTexture name="cooking0@mat"	x="221"	y="0"	width="66"	height="63"/>
+</TextureAtlas>

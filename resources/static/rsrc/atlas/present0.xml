@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="present0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="present0@btn"	x="0"	y="292"	width="432"	height="133"/>
+	<SubTexture name="present0@mat_friend"	x="151"	y="426"	width="58"	height="36"/>
+	<SubTexture name="present0@mat_name"	x="0"	y="426"	width="78"	height="46"/>
+	<SubTexture name="present0@mat_number"	x="0"	y="473"	width="64"	height="37"/>
+	<SubTexture name="present0@present"	x="79"	y="426"	width="71"	height="71"/>
+	<SubTexture name="present0@tab01"	x="0"	y="146"	width="560"	height="145"/>
+	<SubTexture name="present0@tab02"	x="0"	y="0"	width="560"	height="145"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" >
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    </head>
+	<body style="margin:0px;background-color:#000000">
+		<script type="text/javascript" >
+			var urlPrm = new Object;
+			var urlSearch = location.search.substring(1).split('&');
+			for(i=0;urlSearch[i];i++) {
+				var kv = urlSearch[i].split('=');
+				urlPrm[kv[0]]=kv[1];
+			}
+			var nend_params = {"media":urlPrm.media,"site":urlPrm.site,"spot":urlPrm.spot,"type":urlPrm.type,"oriented":urlPrm.oriented};
+		</script>
+		<script type="text/javascript"src="http://js1.nend.net/js/nendAdLoader.js"></script>
+	</body>
+</html>

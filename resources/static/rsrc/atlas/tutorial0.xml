@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="tutorial0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="tutorial0@btn_area"	x="0"	y="0"	width="216"	height="222"/>
+	<SubTexture name="tutorial0@btn_pink"	x="317"	y="133"	width="94"	height="56"/>
+	<SubTexture name="tutorial0@mat_area"	x="49"	y="223"	width="46"	height="28"/>
+	<SubTexture name="tutorial0@mat_change"	x="217"	y="200"	width="70"	height="47"/>
+	<SubTexture name="tutorial0@mat_icon"	x="288"	y="200"	width="57"	height="47"/>
+	<SubTexture name="tutorial0@mat_profile"	x="217"	y="133"	width="99"	height="66"/>
+	<SubTexture name="tutorial0@mat_select"	x="217"	y="0"	width="132"	height="132"/>
+	<SubTexture name="tutorial0@mat_yellow"	x="0"	y="223"	width="48"	height="27"/>
+</TextureAtlas>

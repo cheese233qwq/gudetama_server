@@ -1,0 +1,35 @@
+{
+  "layout":{
+    "children":[
+      {
+        "cls":"muku.display.SimpleImageButton",
+        "constructorParams":[
+          {
+            "cls":"starling.textures.Texture",
+            "textureName":"friend1@btn_invite"
+          }
+        ],
+        "customParams":{},
+        "params":{
+          "buttonType":"NORMAL",
+          "height":77,
+          "name":"button",
+          "width":438
+        }
+      }
+    ],
+    "cls":"starling.display.Sprite",
+    "customParams":{},
+    "params":{
+      "name":"root"
+    }
+  },
+  "setting":{
+    "canvasColor":16777215,
+    "canvasSize":{
+      "x":640,
+      "y":960
+    }
+  },
+  "version":"2.0"
+}

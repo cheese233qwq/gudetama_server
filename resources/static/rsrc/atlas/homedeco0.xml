@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="homedeco0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="homedeco0@btn_close"	x="686"	y="210"	width="66"	height="44"/>
+	<SubTexture name="homedeco0@btn_menu"	x="778"	y="168"	width="81"	height="53"/>
+	<SubTexture name="homedeco0@btn_off"	x="524"	y="156"	width="161"	height="66"/>
+	<SubTexture name="homedeco0@btn_on"	x="362"	y="156"	width="161"	height="66"/>
+	<SubTexture name="homedeco0@btn_reset"	x="778"	y="106"	width="90"	height="61"/>
+	<SubTexture name="homedeco0@close"	x="860"	y="168"	width="34"	height="34"/>
+	<SubTexture name="homedeco0@home"	x="825"	y="0"	width="81"	height="82"/>
+	<SubTexture name="homedeco0@line"	x="0"	y="224"	width="193"	height="4"/>
+	<SubTexture name="homedeco0@mat01"	x="907"	y="0"	width="12"	height="209"/>
+	<SubTexture name="homedeco0@mat02"	x="701"	y="106"	width="57"	height="37"/>
+	<SubTexture name="homedeco0@mat_menu"	x="701"	y="0"	width="123"	height="105"/>
+	<SubTexture name="homedeco0@move"	x="860"	y="203"	width="31"	height="35"/>
+	<SubTexture name="homedeco0@shortage"	x="0"	y="156"	width="361"	height="67"/>
+	<SubTexture name="homedeco0@tab01"	x="686"	y="156"	width="91"	height="53"/>
+	<SubTexture name="homedeco0@title"	x="0"	y="0"	width="700"	height="155"/>
+</TextureAtlas>

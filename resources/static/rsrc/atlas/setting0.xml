@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="setting0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="setting0@bell"	x="331"	y="957"	width="29"	height="34"/>
+	<SubTexture name="setting0@bg01"	x="878"	y="166"	width="81"	height="81"/>
+	<SubTexture name="setting0@btn01"	x="439"	y="731"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn01_o"	x="0"	y="618"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn02"	x="0"	y="731"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn02_o"	x="0"	y="844"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn03"	x="439"	y="279"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn03_o"	x="439"	y="844"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn04"	x="439"	y="166"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn04_o"	x="0"	y="505"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn05"	x="0"	y="392"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn05_o"	x="0"	y="279"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn06"	x="0"	y="166"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn06_o"	x="439"	y="618"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn07"	x="439"	y="392"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn08"	x="439"	y="505"	width="438"	height="112"/>
+	<SubTexture name="setting0@btn_gray"	x="133"	y="957"	width="83"	height="58"/>
+	<SubTexture name="setting0@btn_off"	x="773"	y="114"	width="132"	height="51"/>
+	<SubTexture name="setting0@btn_on"	x="0"	y="957"	width="132"	height="51"/>
+	<SubTexture name="setting0@line_dot"	x="0"	y="1009"	width="34"	height="8"/>
+	<SubTexture name="setting0@mat01"	x="878"	y="248"	width="71"	height="69"/>
+	<SubTexture name="setting0@mat02"	x="638"	y="0"	width="83"	height="67"/>
+	<SubTexture name="setting0@mat_cache"	x="217"	y="957"	width="77"	height="40"/>
+	<SubTexture name="setting0@mat_l"	x="773"	y="0"	width="148"	height="113"/>
+	<SubTexture name="setting0@password"	x="545"	y="0"	width="92"	height="73"/>
+	<SubTexture name="setting0@rogo_option"	x="541"	y="85"	width="231"	height="73"/>
+	<SubTexture name="setting0@soundbar01"	x="217"	y="998"	width="24"	height="21"/>
+	<SubTexture name="setting0@soundbar02"	x="242"	y="998"	width="24"	height="21"/>
+	<SubTexture name="setting0@soundbtn"	x="295"	y="957"	width="35"	height="35"/>
+	<SubTexture name="setting0@title01"	x="0"	y="0"	width="544"	height="84"/>
+	<SubTexture name="setting0@title02"	x="0"	y="85"	width="540"	height="80"/>
+</TextureAtlas>

@@ -1,0 +1,36 @@
+{
+  "layout":{
+    "children":[
+      {
+        "cls":"muku.display.SimpleImageButton",
+        "constructorParams":[
+          {
+            "cls":"starling.textures.Texture",
+            "textureName":"assets-dot"
+          }
+        ],
+        "customParams":{},
+        "params":{
+          "buttonType":"NORMAL",
+          "height":120,
+          "name":"iconBtn",
+          "width":70,
+          "y":5
+        }
+      }
+    ],
+    "cls":"starling.display.Sprite",
+    "customParams":{},
+    "params":{
+      "name":"_"
+    }
+  },
+  "setting":{
+    "canvasColor":10395294,
+    "canvasSize":{
+      "x":640,
+      "y":960
+    }
+  },
+  "version":"2.0"
+}

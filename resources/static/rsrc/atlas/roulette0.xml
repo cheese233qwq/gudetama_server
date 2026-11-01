@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="roulette0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="roulette0@arrow"	x="818"	y="951"	width="61"	height="61"/>
+	<SubTexture name="roulette0@bg01"	x="749"	y="951"	width="68"	height="68"/>
+	<SubTexture name="roulette0@btn_off"	x="749"	y="869"	width="145"	height="81"/>
+	<SubTexture name="roulette0@btn_on"	x="545"	y="231"	width="145"	height="81"/>
+	<SubTexture name="roulette0@check"	x="635"	y="973"	width="52"	height="45"/>
+	<SubTexture name="roulette0@check0_benri"	x="864"	y="34"	width="45"	height="31"/>
+	<SubTexture name="roulette0@checkbox"	x="864"	y="111"	width="37"	height="36"/>
+	<SubTexture name="roulette0@circle"	x="912"	y="0"	width="335"	height="335"/>
+	<SubTexture name="roulette0@gold"	x="912"	y="636"	width="106"	height="127"/>
+	<SubTexture name="roulette0@happening"	x="431"	y="869"	width="158"	height="91"/>
+	<SubTexture name="roulette0@happening_02"	x="590"	y="869"	width="158"	height="103"/>
+	<SubTexture name="roulette0@icon_friend"	x="864"	y="66"	width="44"	height="44"/>
+	<SubTexture name="roulette0@isogi_gold"	x="852"	y="156"	width="52"	height="74"/>
+	<SubTexture name="roulette0@isogi_silver"	x="852"	y="231"	width="52"	height="74"/>
+	<SubTexture name="roulette0@mat_benri"	x="0"	y="869"	width="430"	height="129"/>
+	<SubTexture name="roulette0@mat_friend"	x="575"	y="973"	width="59"	height="44"/>
+	<SubTexture name="roulette0@mat_friendname"	x="864"	y="0"	width="47"	height="33"/>
+	<SubTexture name="roulette0@mat_gp"	x="0"	y="231"	width="544"	height="84"/>
+	<SubTexture name="roulette0@mat_isogi"	x="1019"	y="636"	width="67"	height="88"/>
+	<SubTexture name="roulette0@mat_level"	x="431"	y="973"	width="77"	height="36"/>
+	<SubTexture name="roulette0@mat_white"	x="912"	y="764"	width="99"	height="94"/>
+	<SubTexture name="roulette0@miss"	x="912"	y="440"	width="125"	height="91"/>
+	<SubTexture name="roulette0@miss_02"	x="912"	y="532"	width="125"	height="103"/>
+	<SubTexture name="roulette0@pointer"	x="1012"	y="764"	width="70"	height="96"/>
+	<SubTexture name="roulette0@ribbon01"	x="880"	y="961"	width="18"	height="53"/>
+	<SubTexture name="roulette0@ribbon02"	x="899"	y="961"	width="18"	height="53"/>
+	<SubTexture name="roulette0@ribbon03"	x="918"	y="961"	width="18"	height="53"/>
+	<SubTexture name="roulette0@roulette"	x="0"	y="316"	width="455"	height="552"/>
+	<SubTexture name="roulette0@roulette_black"	x="456"	y="316"	width="455"	height="552"/>
+	<SubTexture name="roulette0@silver"	x="701"	y="0"	width="162"	height="155"/>
+	<SubTexture name="roulette0@success"	x="895"	y="869"	width="128"	height="91"/>
+	<SubTexture name="roulette0@success_02"	x="912"	y="336"	width="128"	height="103"/>
+	<SubTexture name="roulette0@target"	x="688"	y="973"	width="48"	height="39"/>
+	<SubTexture name="roulette0@target_02"	x="509"	y="973"	width="65"	height="48"/>
+	<SubTexture name="roulette0@title"	x="0"	y="0"	width="700"	height="230"/>
+	<SubTexture name="roulette0@useful22"	x="701"	y="156"	width="150"	height="151"/>
+</TextureAtlas>

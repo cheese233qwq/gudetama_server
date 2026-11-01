@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="pr0.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="pr0@balloon01"	x="0"	y="903"	width="107"	height="80"/>
+	<SubTexture name="pr0@balloon02"	x="108"	y="903"	width="90"	height="42"/>
+	<SubTexture name="pr0@mat_sns"	x="0"	y="333"	width="578"	height="569"/>
+	<SubTexture name="pr0@title"	x="0"	y="0"	width="587"	height="332"/>
+</TextureAtlas>
